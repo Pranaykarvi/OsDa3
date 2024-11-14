@@ -4,7 +4,7 @@ import joblib
 
 # Load the saved model
 model = joblib.load("Cyber_attack/cyber_attack_model.joblib")
-data = pd.read_csv("Cyber_attack/cyber_attack_model.joblib")  # Update path as necessary
+data = pd.read_csv("Cyber_attack/cybersecurity_attacks.csv")  # Update path as necessary
 
 # Define the layout and title for the Streamlit app
 st.set_page_config(page_title="Cyber Attack Type Detection", layout="wide")
